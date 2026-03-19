@@ -15,3 +15,12 @@ fetch('products.json')
       `;
     });
   });
+function addToFav(name) {
+  let favs = JSON.parse(localStorage.getItem('favs')) || [];
+
+  favs.push(name);
+
+  localStorage.setItem('favs', JSON.stringify(favs));
+
+  alert("Adicionado aos favoritos!");
+}
