@@ -33,3 +33,4 @@ function sendFavs() {
 
   window.open(url, "_blank");
 }
+cart.push(product)
