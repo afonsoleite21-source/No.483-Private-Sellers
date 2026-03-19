@@ -1,8 +1,14 @@
 [
   {
-    "name": "Produto Teste",
-    "price": 50,
-    "oldPrice": 100,
-    "image": ""
+    "name": "Acne Studios T-Shirt",
+    "price": 90,
+    "oldPrice": 320,
+    "image": "img1.jpg"
+  },
+  {
+    "name": "OVO T-Shirt",
+    "price": 20,
+    "oldPrice": 65,
+    "image": "img2.jpg"
   }
 ]
