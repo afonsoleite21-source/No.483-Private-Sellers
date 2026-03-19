@@ -24,3 +24,12 @@ function addToFav(name) {
 
   alert("Adicionado aos favoritos!");
 }
+function sendFavs() {
+  let favs = JSON.parse(localStorage.getItem('favs')) || [];
+
+  let text = "Quero estes produtos:\n" + favs.join("\n");
+
+  let url = "https://wa.me/351XXXXXXXXX?text=" + encodeURIComponent(text);
+
+  window.open(url, "_blank");
+}
